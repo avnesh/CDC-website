@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | CDC</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <section class="section" style="background: var(--light-gray); text-align: center; padding: 60px 20px;">
+        <h1 class="section-title">Get in Touch</h1>
+        <p>We'd love to hear from you. Reach out for any queries or quotes.</p>
+    </section>
+
+    <section class="section" style="margin-top: -60px; padding-top: 0;">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); align-items: start;">
+
+                <!-- Contact Info -->
+                <div class="card">
+                    <h2 style="margin-bottom: 25px;">Contact Information</h2>
+
+                    <div class="contact-info-item">
+                        <i class="ri-map-pin-fill"></i>
+                        <div>
+                            <h4>Our Office</h4>
+                            <p>123 Business Park, Industrial Area,<br>Mumbai, Maharashtra, India - 400001</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="ri-phone-fill"></i>
+                        <div>
+                            <h4>Phone / WhatsApp</h4>
+                            <p>+91 99999 99999<br>+91 88888 88888</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <i class="ri-mail-fill"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@cdc.com<br>sales@cdc.com</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+                        <h4 style="margin-bottom: 15px;">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" style="background: var(--primary-color);"><i class="ri-facebook-fill"></i></a>
+                            <a href="#" style="background: var(--primary-color);"><i class="ri-instagram-fill"></i></a>
+                            <a href="#" style="background: var(--primary-color);"><i class="ri-linkedin-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="card">
+                    <h2 style="margin-bottom: 25px;">Send a Message</h2>
+                    <form class="contact-form" action="#" method="POST"
+                        onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+                        <div class="form-group">
+                            <label class="form-label">Your Name</label>
+                            <input type="text" class="form-control" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="+91...">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Subject</label>
+                            <select class="form-control">
+                                <option>General Inquiry</option>
+                                <option>Facility Management Quote</option>
+                                <option>Manpower Requirement</option>
+                                <option>Product Order (Food)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="5" placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Embed (Optional) -->
+    <section style="height: 300px; background: #ddd; display: flex; align-items: center; justify-content: center;">
+        <p style="color: #666;">[Google Maps Embed Would Go Here]</p>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
