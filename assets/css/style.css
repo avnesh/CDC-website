@@ -539,3 +539,12 @@ textarea.form-control {
         /* Above WhatsApp on mobile */
     }
 }
+/* Contact Page Social Links */
+.social-links a.social-link-dark {
+    background: var(--primary-color);
+}
+
+.social-links a.social-link-dark:hover {
+    background: var(--accent-color);
+    color: var(--primary-color);
+}

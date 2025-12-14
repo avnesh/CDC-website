@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | CDC</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=1">
 </head>
 
 <body>
@@ -30,7 +30,9 @@
                         <i class="ri-map-pin-fill"></i>
                         <div>
                             <h4>Our Office</h4>
-                            <p>123 Business Park, Industrial Area,<br>Mumbai, Maharashtra, India - 400001</p>
+                            <p><a href="https://www.google.com/maps/search/?api=1&query=123+Business+Park,+Industrial+Area,+Mumbai,+Maharashtra,+India+-+400001"
+                                    target="_blank" style="color: inherit; text-decoration: none;">123 Business Park,
+                                    Industrial Area,<br>Mumbai, Maharashtra, India - 400001</a></p>
                         </div>
                     </div>
 
@@ -38,7 +40,9 @@
                         <i class="ri-phone-fill"></i>
                         <div>
                             <h4>Phone / WhatsApp</h4>
-                            <p>+91 99999 99999<br>+91 88888 88888</p>
+                            <p><a href="tel:+919999999999" style="color: inherit; text-decoration: none;">+91 99999
+                                    99999</a><br><a href="tel:+918888888888"
+                                    style="color: inherit; text-decoration: none;">+91 88888 88888</a></p>
                         </div>
                     </div>
 
@@ -46,16 +50,19 @@
                         <i class="ri-mail-fill"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@cdc.com<br>sales@cdc.com</p>
+                            <p><a href="mailto:info@cdc.com"
+                                    style="color: inherit; text-decoration: none;">info@cdc.com</a><br><a
+                                    href="mailto:sales@cdc.com"
+                                    style="color: inherit; text-decoration: none;">sales@cdc.com</a></p>
                         </div>
                     </div>
 
                     <div style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 20px;">
                         <h4 style="margin-bottom: 15px;">Follow Us</h4>
                         <div class="social-links">
-                            <a href="#" style="background: var(--primary-color);"><i class="ri-facebook-fill"></i></a>
-                            <a href="#" style="background: var(--primary-color);"><i class="ri-instagram-fill"></i></a>
-                            <a href="#" style="background: var(--primary-color);"><i class="ri-linkedin-fill"></i></a>
+                            <a href="#" class="social-link-dark"><i class="ri-facebook-fill"></i></a>
+                            <a href="#" class="social-link-dark"><i class="ri-instagram-fill"></i></a>
+                            <a href="#" class="social-link-dark"><i class="ri-linkedin-fill"></i></a>
                         </div>
                     </div>
                 </div>
@@ -66,12 +73,12 @@
                     <form class="contact-form" action="#" method="POST"
                         onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
                         <div class="form-group">
-                            <label class="form-label">Your Name</label>
+                            <label class="form-label">Your Name <span style="color: red;">*</span></label>
                             <input type="text" class="form-control" placeholder="John Doe" required>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label">Email Address</label>
+                            <label class="form-label">Email Address <span style="color: red;">*</span></label>
                             <input type="email" class="form-control" placeholder="john@example.com" required>
                         </div>
 
@@ -91,8 +98,9 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label">Message</label>
-                            <textarea class="form-control" rows="5" placeholder="How can we help you?"></textarea>
+                            <label class="form-label">Message <span style="color: red;">*</span></label>
+                            <textarea class="form-control" rows="5" placeholder="How can we help you?"
+                                required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
