@@ -1,0 +1,8 @@
+# Netlify Redirect Rules
+# Syntax: /old-path /new-path [status]
+
+# Force redirect from old domain to new domain
+https://cdcwebsite1.netlify.app/*  https://minetoaction.netlify.app/:splat  301!
+
+# Fallback for SPA (if needed later, keeping standard)
+# /* /index.html 200

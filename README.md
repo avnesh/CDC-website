@@ -1,4 +1,4 @@
-# CDC Website
+# Mine to Action Website
 
 A responsive company website featuring facility management, manpower services, and dehydrated food trading.
 

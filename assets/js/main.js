@@ -1,3 +1,12 @@
+// Domain Redirection
+(function () {
+    const oldDomain = "cdcwebsite1.netlify.app";
+    const newDomain = "minetoaction.netlify.app";
+    if (window.location.hostname === oldDomain) {
+        window.location.replace("https://" + newDomain + window.location.pathname + window.location.search);
+    }
+})();
+
 function loadHTML(elementId, filePath) {
     fetch(filePath)
         .then(response => response.text())
