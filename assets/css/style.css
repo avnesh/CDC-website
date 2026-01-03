@@ -292,10 +292,21 @@ footer {
     flex-direction: column;
 }
 
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
     border-color: var(--accent-color);
+}
+
+.card .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+    padding: 8px 20px;
 }
 
 .grid {
