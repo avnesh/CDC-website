@@ -687,3 +687,13 @@ textarea.form-control {
         /* Reset margin if it was added */
     }
 }
+
+/* Restored Contact Page Social Links */
+.social-links a.social-link-dark {
+    background: var(--primary-color);
+}
+
+.social-links a.social-link-dark:hover {
+    background: var(--accent-color);
+    color: var(--primary-color);
+}
